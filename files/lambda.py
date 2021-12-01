@@ -1,6 +1,8 @@
 import boto3
 import json
 
+# TODO - create handler function and incorporate the below functionalities
+
 s3 = boto3.client('s3')
 
 # Listing buckets
