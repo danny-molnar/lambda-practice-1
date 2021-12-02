@@ -5,5 +5,5 @@
 data "archive_file" "pets_script" {
     type = "zip"
     source_file = "${path.module}/files/${var.script_filename}.py"
-    output_file = "${path.module}/files/${var.script_filename}.zip"
+    output_path = "${path.module}/files/${var.script_filename}.zip"
 }
