@@ -13,3 +13,7 @@ variable "lambda_role_name" {
     description = "This variable stores the name for the lambda IAM role"
     default = "lambda_petfood_assume_role"
 }
+
+variable "script_filename" {
+  description = "This contains the filename of the script to be run"
+}
