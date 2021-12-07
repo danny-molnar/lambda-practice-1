@@ -4,4 +4,5 @@ jobs:
   terraform-deployment:
     runs-on: ubuntu-latest #this is a docker image where we're running the automation
     steps: #this is gonna be a list on multiple lines, see below lines starting with -
-      - run: echo "This is the first step"
+      - name: Authenticate with AWS
+        uses: 
