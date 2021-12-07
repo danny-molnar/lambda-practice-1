@@ -1,0 +1,7 @@
+name: Talent Academy Demo
+on: [push] #an inline list, so it needs to be wrapped in []
+jobs:
+  terraform-deployment:
+    runs-on: ubuntu-latest #this is a docker image where we're running the automation
+    steps: #this is gonna be a list on multiple lines, see below lines starting with -
+      - run: echo "This is the first step"
